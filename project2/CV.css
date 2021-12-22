@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.center{text-align: center;}
+.underline{text-decoration: underline;}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+ }
+ .bg-Royalblue{
+    --bs-bg-opacity: 1;
+    background-color: royalblue;
+}
+.silver{color:silver;}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+ 
+#white{color: white;}
+.border-nav{
+    border: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#footerCV{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+ }
+.blackText{color: black;}
+
+
+
+  .carousel-container {
+    width: 1280px;
+    margin: 50px auto;
+    min-height: 200px;
+    position: relative;
+  }
+  @media screen and (max-width: 768px) {
+    .carousel-container {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .carousel-container {
+      width: 85%;
+    }
+  }
+  .carousel-container .carousel-inner {
+    overflow: hidden;
+  }
+  .carousel-container .track {
+    display: inline-flex;
+    transition: transform 0.5s;
+  }
+  .carousel-container .card-container {
+    width: 259px;
+    flex-shrink: 0;
+    height: 250px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  .carousel-container .card-container .card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .navigatie button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .navigatie .terug {
+    left: -30px;
+    display: none;
+  }
+  .navigatie .terug.show {
+    display: block;
+  }
+  .navigatie .volgende {
+    right: -30px;
+  }
+  .navigatie .volgende.hide {
+    display: none;
+  }
+  
+  .card > * {
+    flex: 1;
+  }
+  .card .informatie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .card .info {
+    flex-basis: 40px;
+    background: royalblue;
+    color: #fff;
+    flex-grow: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
